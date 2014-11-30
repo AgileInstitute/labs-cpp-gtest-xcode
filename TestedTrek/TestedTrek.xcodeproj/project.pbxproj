@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A35500F1A16BA83005D3B05 /* Example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A35500D1A16BA83005D3B05 /* Example.cpp */; };
-		2A3550101A16BA83005D3B05 /* Example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A35500D1A16BA83005D3B05 /* Example.cpp */; };
-		2A3550111A16BA83005D3B05 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A35500E1A16BA83005D3B05 /* Example.h */; };
-		2A3550141A16BA8C005D3B05 /* Example_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A3550121A16BA8C005D3B05 /* Example_Tests.cpp */; };
-		2A3550161A16BAB8005D3B05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A3550151A16BAB7005D3B05 /* main.cpp */; };
 		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
+		8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E06F1A2AB0640047516C /* Galaxy.cpp */; };
+		8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0701A2AB0640047516C /* Galaxy.h */; };
+		8F18E07C1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
+		8F18E07D1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
+		8F18E07E1A2AB0640047516C /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0721A2AB0640047516C /* Game.h */; };
+		8F18E07F1A2AB0640047516C /* Klingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0731A2AB0640047516C /* Klingon.cpp */; };
+		8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0731A2AB0640047516C /* Klingon.cpp */; };
+		8F18E0811A2AB0640047516C /* Klingon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0741A2AB0640047516C /* Klingon.h */; };
+		8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0761A2AB0640047516C /* SampleClient.cpp */; };
+		8F18E0841A2AB0640047516C /* SampleClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0771A2AB0640047516C /* SampleClient.h */; };
+		8F18E0851A2AB0640047516C /* WebGadget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0781A2AB0640047516C /* WebGadget.h */; };
+		8F18E08D1A2AB0760047516C /* PhaserCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0861A2AB0760047516C /* PhaserCharacterizationTests.cpp */; };
+		8F18E08F1A2AB0760047516C /* PhotonCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0871A2AB0760047516C /* PhotonCharacterizationTests.cpp */; };
+		8F18E0911A2AB0760047516C /* MockGalaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0881A2AB0760047516C /* MockGalaxy.cpp */; };
+		8F18E0941A2AB0760047516C /* MockKlingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E08A1A2AB0760047516C /* MockKlingon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +38,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2A35500D1A16BA83005D3B05 /* Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example.cpp; path = src/Example.cpp; sourceTree = "<group>"; };
-		2A35500E1A16BA83005D3B05 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example.h; path = src/Example.h; sourceTree = "<group>"; };
-		2A3550121A16BA8C005D3B05 /* Example_Tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_Tests.cpp; path = tests/Example_Tests.cpp; sourceTree = "<group>"; };
-		2A3550151A16BAB7005D3B05 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		8F18E06F1A2AB0640047516C /* Galaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Galaxy.cpp; sourceTree = "<group>"; };
+		8F18E0701A2AB0640047516C /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
+		8F18E0711A2AB0640047516C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		8F18E0721A2AB0640047516C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8F18E0731A2AB0640047516C /* Klingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Klingon.cpp; sourceTree = "<group>"; };
+		8F18E0741A2AB0640047516C /* Klingon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Klingon.h; sourceTree = "<group>"; };
+		8F18E0761A2AB0640047516C /* SampleClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleClient.cpp; sourceTree = "<group>"; };
+		8F18E0771A2AB0640047516C /* SampleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClient.h; sourceTree = "<group>"; };
+		8F18E0781A2AB0640047516C /* WebGadget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGadget.h; sourceTree = "<group>"; };
+		8F18E0861A2AB0760047516C /* PhaserCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhaserCharacterizationTests.cpp; path = tests/PhaserCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
+		8F18E0871A2AB0760047516C /* PhotonCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhotonCharacterizationTests.cpp; path = tests/PhotonCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
+		8F18E0881A2AB0760047516C /* MockGalaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MockGalaxy.cpp; path = tests/MockGalaxy.cpp; sourceTree = SOURCE_ROOT; };
+		8F18E0891A2AB0760047516C /* MockGalaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockGalaxy.h; path = tests/MockGalaxy.h; sourceTree = SOURCE_ROOT; };
+		8F18E08A1A2AB0760047516C /* MockKlingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MockKlingon.cpp; path = tests/MockKlingon.cpp; sourceTree = SOURCE_ROOT; };
+		8F18E08B1A2AB0760047516C /* MockKlingon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MockKlingon.h; path = tests/MockKlingon.h; sourceTree = SOURCE_ROOT; };
 		F81ECFE419C1521300376E6E /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = gtest/gtest.framework; sourceTree = "<group>"; };
 		F88A03F019755CBB0038BCFE /* libTestedTrek.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTestedTrek.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88A03FF19755D2E0038BCFE /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,12 +77,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F18E06E1A2AB0640047516C /* StarTrek */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E06F1A2AB0640047516C /* Galaxy.cpp */,
+				8F18E0701A2AB0640047516C /* Galaxy.h */,
+				8F18E0711A2AB0640047516C /* Game.cpp */,
+				8F18E0721A2AB0640047516C /* Game.h */,
+				8F18E0731A2AB0640047516C /* Klingon.cpp */,
+				8F18E0741A2AB0640047516C /* Klingon.h */,
+			);
+			name = StarTrek;
+			path = src/StarTrek;
+			sourceTree = "<group>";
+		};
+		8F18E0751A2AB0640047516C /* Untouchables */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E0761A2AB0640047516C /* SampleClient.cpp */,
+				8F18E0771A2AB0640047516C /* SampleClient.h */,
+				8F18E0781A2AB0640047516C /* WebGadget.h */,
+			);
+			name = Untouchables;
+			path = src/Untouchables;
+			sourceTree = "<group>";
+		};
 		F86EC1EE197830850097CAA4 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				2A35500D1A16BA83005D3B05 /* Example.cpp */,
-				2A3550151A16BAB7005D3B05 /* main.cpp */,
-				2A35500E1A16BA83005D3B05 /* Example.h */,
+				8F18E06E1A2AB0640047516C /* StarTrek */,
+				8F18E0751A2AB0640047516C /* Untouchables */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -72,7 +117,6 @@
 				F81ECFE419C1521300376E6E /* gtest.framework */,
 				F86EC1EE197830850097CAA4 /* src */,
 				F88A040019755D2E0038BCFE /* tests */,
-				2A3550121A16BA8C005D3B05 /* Example_Tests.cpp */,
 				F88A03F119755CBB0038BCFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +133,12 @@
 		F88A040019755D2E0038BCFE /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				8F18E0861A2AB0760047516C /* PhaserCharacterizationTests.cpp */,
+				8F18E0871A2AB0760047516C /* PhotonCharacterizationTests.cpp */,
+				8F18E0881A2AB0760047516C /* MockGalaxy.cpp */,
+				8F18E0891A2AB0760047516C /* MockGalaxy.h */,
+				8F18E08A1A2AB0760047516C /* MockKlingon.cpp */,
+				8F18E08B1A2AB0760047516C /* MockKlingon.h */,
 			);
 			name = tests;
 			path = UnitTest;
@@ -101,7 +151,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3550111A16BA83005D3B05 /* Example.h in Headers */,
+				8F18E0841A2AB0640047516C /* SampleClient.h in Headers */,
+				8F18E0851A2AB0640047516C /* WebGadget.h in Headers */,
+				8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */,
+				8F18E0811A2AB0640047516C /* Klingon.h in Headers */,
+				8F18E07E1A2AB0640047516C /* Game.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3550161A16BAB8005D3B05 /* main.cpp in Sources */,
-				2A35500F1A16BA83005D3B05 /* Example.cpp in Sources */,
+				8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */,
+				8F18E07F1A2AB0640047516C /* Klingon.cpp in Sources */,
+				8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */,
+				8F18E07C1A2AB0640047516C /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3550141A16BA8C005D3B05 /* Example_Tests.cpp in Sources */,
-				2A3550101A16BA83005D3B05 /* Example.cpp in Sources */,
+				8F18E0941A2AB0760047516C /* MockKlingon.cpp in Sources */,
+				8F18E08D1A2AB0760047516C /* PhaserCharacterizationTests.cpp in Sources */,
+				8F18E0911A2AB0760047516C /* MockGalaxy.cpp in Sources */,
+				8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */,
+				8F18E08F1A2AB0760047516C /* PhotonCharacterizationTests.cpp in Sources */,
+				8F18E07D1A2AB0640047516C /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +278,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -249,6 +315,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
