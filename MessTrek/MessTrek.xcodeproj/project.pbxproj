@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
+		8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E06F1A2AB0640047516C /* Galaxy.cpp */; };
+		8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0701A2AB0640047516C /* Galaxy.h */; };
+		8F18E07C1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
+		8F18E07D1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
+		8F18E07E1A2AB0640047516C /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0721A2AB0640047516C /* Game.h */; };
+		8F18E07F1A2AB0640047516C /* Klingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0731A2AB0640047516C /* Klingon.cpp */; };
+		8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0731A2AB0640047516C /* Klingon.cpp */; };
+		8F18E0811A2AB0640047516C /* Klingon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0741A2AB0640047516C /* Klingon.h */; };
+		8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0761A2AB0640047516C /* SampleClient.cpp */; };
+		8F18E0841A2AB0640047516C /* SampleClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0771A2AB0640047516C /* SampleClient.h */; };
+		8F18E0851A2AB0640047516C /* WebGadget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0781A2AB0640047516C /* WebGadget.h */; };
+		8F18E08D1A2AB0760047516C /* MessTrekCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0861A2AB0760047516C /* MessTrekCharacterizationTests.cpp */; };
+		8F8A58AB1A2BD3B300D72F1A /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E06F1A2AB0640047516C /* Galaxy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F88A03FD19755D2E0038BCFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F18E06F1A2AB0640047516C /* Galaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Galaxy.cpp; sourceTree = "<group>"; };
+		8F18E0701A2AB0640047516C /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
+		8F18E0711A2AB0640047516C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		8F18E0721A2AB0640047516C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8F18E0731A2AB0640047516C /* Klingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Klingon.cpp; sourceTree = "<group>"; };
+		8F18E0741A2AB0640047516C /* Klingon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Klingon.h; sourceTree = "<group>"; };
+		8F18E0761A2AB0640047516C /* SampleClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleClient.cpp; sourceTree = "<group>"; };
+		8F18E0771A2AB0640047516C /* SampleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClient.h; sourceTree = "<group>"; };
+		8F18E0781A2AB0640047516C /* WebGadget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGadget.h; sourceTree = "<group>"; };
+		8F18E0861A2AB0760047516C /* MessTrekCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessTrekCharacterizationTests.cpp; path = tests/MessTrekCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
+		F81ECFE419C1521300376E6E /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = gtest/gtest.framework; sourceTree = "<group>"; };
+		F88A03F019755CBB0038BCFE /* libMessTrek.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMessTrek.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A03FF19755D2E0038BCFE /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F88A03ED19755CBB0038BCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A03FC19755D2E0038BCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F18E06E1A2AB0640047516C /* StarTrek */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E06F1A2AB0640047516C /* Galaxy.cpp */,
+				8F18E0701A2AB0640047516C /* Galaxy.h */,
+				8F18E0711A2AB0640047516C /* Game.cpp */,
+				8F18E0721A2AB0640047516C /* Game.h */,
+				8F18E0731A2AB0640047516C /* Klingon.cpp */,
+				8F18E0741A2AB0640047516C /* Klingon.h */,
+			);
+			name = StarTrek;
+			path = src/StarTrek;
+			sourceTree = "<group>";
+		};
+		8F18E0751A2AB0640047516C /* Untouchables */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E0761A2AB0640047516C /* SampleClient.cpp */,
+				8F18E0771A2AB0640047516C /* SampleClient.h */,
+				8F18E0781A2AB0640047516C /* WebGadget.h */,
+			);
+			name = Untouchables;
+			path = src/Untouchables;
+			sourceTree = "<group>";
+		};
+		F86EC1EE197830850097CAA4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E06E1A2AB0640047516C /* StarTrek */,
+				8F18E0751A2AB0640047516C /* Untouchables */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F88A03E719755CBB0038BCFE = {
+			isa = PBXGroup;
+			children = (
+				F81ECFE419C1521300376E6E /* gtest.framework */,
+				F86EC1EE197830850097CAA4 /* src */,
+				F88A040019755D2E0038BCFE /* tests */,
+				F88A03F119755CBB0038BCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F88A03F119755CBB0038BCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88A03F019755CBB0038BCFE /* libMessTrek.dylib */,
+				F88A03FF19755D2E0038BCFE /* UnitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88A040019755D2E0038BCFE /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F18E0861A2AB0760047516C /* MessTrekCharacterizationTests.cpp */,
+			);
+			name = tests;
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F88A03EE19755CBB0038BCFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F18E0841A2AB0640047516C /* SampleClient.h in Headers */,
+				8F18E0851A2AB0640047516C /* WebGadget.h in Headers */,
+				8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */,
+				8F18E0811A2AB0640047516C /* Klingon.h in Headers */,
+				8F18E07E1A2AB0640047516C /* Game.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F88A03EF19755CBB0038BCFE /* MessTrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A03F419755CBB0038BCFE /* Build configuration list for PBXNativeTarget "MessTrek" */;
+			buildPhases = (
+				F88A03EC19755CBB0038BCFE /* Sources */,
+				F88A03ED19755CBB0038BCFE /* Frameworks */,
+				F88A03EE19755CBB0038BCFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessTrek;
+			productName = Example;
+			productReference = F88A03F019755CBB0038BCFE /* libMessTrek.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F88A03FE19755D2E0038BCFE /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A040519755D2E0038BCFE /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				F88A03FB19755D2E0038BCFE /* Sources */,
+				F88A03FC19755D2E0038BCFE /* Frameworks */,
+				F88A03FD19755D2E0038BCFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = F88A03FF19755D2E0038BCFE /* UnitTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F88A03E819755CBB0038BCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Agile Institute";
+			};
+			buildConfigurationList = F88A03EB19755CBB0038BCFE /* Build configuration list for PBXProject "MessTrek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F88A03E719755CBB0038BCFE;
+			productRefGroup = F88A03F119755CBB0038BCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88A03EF19755CBB0038BCFE /* MessTrek */,
+				F88A03FE19755D2E0038BCFE /* UnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F88A03EC19755CBB0038BCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */,
+				8F18E07F1A2AB0640047516C /* Klingon.cpp in Sources */,
+				8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */,
+				8F18E07C1A2AB0640047516C /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88A03FB19755D2E0038BCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F18E08D1A2AB0760047516C /* MessTrekCharacterizationTests.cpp in Sources */,
+				8F8A58AB1A2BD3B300D72F1A /* Galaxy.cpp in Sources */,
+				8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */,
+				8F18E07D1A2AB0640047516C /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F88A03F219755CBB0038BCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F88A03F319755CBB0038BCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F88A03F519755CBB0038BCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = MessTrek;
+			};
+			name = Debug;
+		};
+		F88A03F619755CBB0038BCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = MessTrek;
+			};
+			name = Release;
+		};
+		F88A040619755D2E0038BCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gtest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F88A040719755D2E0038BCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gtest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F88A03EB19755CBB0038BCFE /* Build configuration list for PBXProject "MessTrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A03F219755CBB0038BCFE /* Debug */,
+				F88A03F319755CBB0038BCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88A03F419755CBB0038BCFE /* Build configuration list for PBXNativeTarget "MessTrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A03F519755CBB0038BCFE /* Debug */,
+				F88A03F619755CBB0038BCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88A040519755D2E0038BCFE /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A040619755D2E0038BCFE /* Debug */,
+				F88A040719755D2E0038BCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F88A03E819755CBB0038BCFE /* Project object */;
+}
