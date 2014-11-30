@@ -28,3 +28,6 @@
 *.app
 
 # stuff we added
+*.xccheckout
+*.xcuserstate
+
