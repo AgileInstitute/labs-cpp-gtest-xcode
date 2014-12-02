@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
-		8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E06F1A2AB0640047516C /* Galaxy.cpp */; };
-		8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0701A2AB0640047516C /* Galaxy.h */; };
 		8F18E07C1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
 		8F18E07D1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
 		8F18E07E1A2AB0640047516C /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0721A2AB0640047516C /* Game.h */; };
@@ -19,7 +17,6 @@
 		8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0761A2AB0640047516C /* SampleClient.cpp */; };
 		8F18E0851A2AB0640047516C /* WebGadget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0781A2AB0640047516C /* WebGadget.h */; };
 		8F18E08D1A2AB0760047516C /* MessTrekCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0861A2AB0760047516C /* MessTrekCharacterizationTests.cpp */; };
-		8F8A58AB1A2BD3B300D72F1A /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E06F1A2AB0640047516C /* Galaxy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +32,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F18E06F1A2AB0640047516C /* Galaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Galaxy.cpp; sourceTree = "<group>"; };
-		8F18E0701A2AB0640047516C /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
 		8F18E0711A2AB0640047516C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		8F18E0721A2AB0640047516C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		8F18E0731A2AB0640047516C /* Klingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Klingon.cpp; sourceTree = "<group>"; };
@@ -71,8 +66,6 @@
 		8F18E06E1A2AB0640047516C /* StarTrek */ = {
 			isa = PBXGroup;
 			children = (
-				8F18E06F1A2AB0640047516C /* Galaxy.cpp */,
-				8F18E0701A2AB0640047516C /* Galaxy.h */,
 				8F18E0711A2AB0640047516C /* Game.cpp */,
 				8F18E0721A2AB0640047516C /* Game.h */,
 				8F18E0731A2AB0640047516C /* Klingon.cpp */,
@@ -137,7 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F18E0851A2AB0640047516C /* WebGadget.h in Headers */,
-				8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */,
 				8F18E0811A2AB0640047516C /* Klingon.h in Headers */,
 				8F18E07E1A2AB0640047516C /* Game.h in Headers */,
 			);
@@ -212,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F18E0791A2AB0640047516C /* Galaxy.cpp in Sources */,
 				8F18E07F1A2AB0640047516C /* Klingon.cpp in Sources */,
 				8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */,
 				8F18E07C1A2AB0640047516C /* Game.cpp in Sources */,
@@ -224,7 +215,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F18E08D1A2AB0760047516C /* MessTrekCharacterizationTests.cpp in Sources */,
-				8F8A58AB1A2BD3B300D72F1A /* Galaxy.cpp in Sources */,
 				8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */,
 				8F18E07D1A2AB0640047516C /* Game.cpp in Sources */,
 			);

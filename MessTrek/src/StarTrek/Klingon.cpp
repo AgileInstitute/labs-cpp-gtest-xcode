@@ -1,4 +1,1 @@
-#include "../StarTrek/Klingon.h"
-
-void StarTrek::Klingon::destroy(void) {
-}
+// totally in header file for "performance"

@@ -7,10 +7,6 @@
 
 namespace StarTrek {
 
-class Galaxy;
-
-typedef int(*Random)(void);
-
 
 class Game {
 private:
@@ -18,18 +14,12 @@ private:
 	int t_;
 
 	static int rnd(int maximum) {
-		return generator() % maximum; 
+		return rand() % maximum; 
 	}
 
 public:
-    Game();
+	Game();
     void fireWeapon(Untouchables::WebGadget* wg);
-    void fireWeapon(Galaxy& galaxy);
-    int energyRemaining(void);
-    void torpedoes(int value);
-    int torpedoes(void);
-
-    static Random generator;
 };
 
 }

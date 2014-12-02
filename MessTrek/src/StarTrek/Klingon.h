@@ -7,7 +7,7 @@
 namespace StarTrek {
 
 class Klingon {
-protected:
+private:
 	int distance_;
 	int energy_;
 
@@ -15,14 +15,11 @@ public:
 	Klingon() : distance_(100 + rand() % 4000), energy_(1000+ rand() % 2000) {
 	}
 
-	virtual ~Klingon() {
-        }
-
-	int distance(void) {
+	int distance() {
 		return distance_;
 	}
 
-	int energy(void) {
+	int energy() {
 		return energy_;
 	}
 
@@ -30,7 +27,9 @@ public:
 		energy_ = value;
 	}
 
-	virtual void destroy(void); 
+	void destroy() {
+	}
+
 };
 }
 
