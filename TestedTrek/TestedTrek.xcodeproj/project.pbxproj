@@ -17,7 +17,6 @@
 		8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0731A2AB0640047516C /* Klingon.cpp */; };
 		8F18E0811A2AB0640047516C /* Klingon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0741A2AB0640047516C /* Klingon.h */; };
 		8F18E0821A2AB0640047516C /* SampleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0761A2AB0640047516C /* SampleClient.cpp */; };
-		8F18E0841A2AB0640047516C /* SampleClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0771A2AB0640047516C /* SampleClient.h */; };
 		8F18E0851A2AB0640047516C /* WebGadget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0781A2AB0640047516C /* WebGadget.h */; };
 		8F18E08D1A2AB0760047516C /* PhaserCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0861A2AB0760047516C /* PhaserCharacterizationTests.cpp */; };
 		8F18E08F1A2AB0760047516C /* PhotonCharacterizationTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0871A2AB0760047516C /* PhotonCharacterizationTests.cpp */; };
@@ -45,7 +44,6 @@
 		8F18E0731A2AB0640047516C /* Klingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Klingon.cpp; sourceTree = "<group>"; };
 		8F18E0741A2AB0640047516C /* Klingon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Klingon.h; sourceTree = "<group>"; };
 		8F18E0761A2AB0640047516C /* SampleClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleClient.cpp; sourceTree = "<group>"; };
-		8F18E0771A2AB0640047516C /* SampleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleClient.h; sourceTree = "<group>"; };
 		8F18E0781A2AB0640047516C /* WebGadget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGadget.h; sourceTree = "<group>"; };
 		8F18E0861A2AB0760047516C /* PhaserCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhaserCharacterizationTests.cpp; path = tests/PhaserCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
 		8F18E0871A2AB0760047516C /* PhotonCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhotonCharacterizationTests.cpp; path = tests/PhotonCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
@@ -95,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				8F18E0761A2AB0640047516C /* SampleClient.cpp */,
-				8F18E0771A2AB0640047516C /* SampleClient.h */,
 				8F18E0781A2AB0640047516C /* WebGadget.h */,
 			);
 			name = Untouchables;
@@ -151,7 +148,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F18E0841A2AB0640047516C /* SampleClient.h in Headers */,
 				8F18E0851A2AB0640047516C /* WebGadget.h in Headers */,
 				8F18E07B1A2AB0640047516C /* Galaxy.h in Headers */,
 				8F18E0811A2AB0640047516C /* Klingon.h in Headers */,
