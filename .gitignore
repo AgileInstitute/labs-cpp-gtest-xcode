@@ -30,4 +30,4 @@
 # stuff we added
 *.xccheckout
 *.xcuserstate
-
+*.xcscheme

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-               BuildableName = "libTestedTrek.dylib"
+               BuildableName = "libMessTrek.dylib"
                BlueprintName = "MessTrek"
                ReferencedContainer = "container:MessTrek.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-            BuildableName = "libTestedTrek.dylib"
+            BuildableName = "libMessTrek.dylib"
             BlueprintName = "MessTrek"
             ReferencedContainer = "container:MessTrek.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-            BuildableName = "libTestedTrek.dylib"
+            BuildableName = "libMessTrek.dylib"
             BlueprintName = "MessTrek"
             ReferencedContainer = "container:MessTrek.xcodeproj">
          </BuildableReference>
