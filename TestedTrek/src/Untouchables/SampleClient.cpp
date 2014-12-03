@@ -21,7 +21,7 @@ namespace Untouchables {
 
 using namespace Untouchables;
 
-int main(void) {
+int main(int argc, char** argv) {
 	printf("Simple Star Trek");
 	std::tr1::shared_ptr<Klingon> klingon(new Klingon);
 	WebGadget wg("phaser", "1000", (void*)klingon.get());
