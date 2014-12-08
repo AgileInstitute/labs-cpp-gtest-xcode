@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2A3550141A16BA8C005D3B05 /* StockQuoteTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A3550121A16BA8C005D3B05 /* StockQuoteTests.cpp */; };
 		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
+		8F25A15D1A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A1571A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp */; };
+		8F25A15E1A354D8E002902AD /* SecurityExchangeTransmissionInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F25A1581A354D8E002902AD /* SecurityExchangeTransmissionInterface.h */; };
+		8F25A15F1A354D8E002902AD /* LunExServices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A1591A354D8E002902AD /* LunExServices.cpp */; };
+		8F25A1601A354D8E002902AD /* LunExServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F25A15A1A354D8E002902AD /* LunExServices.h */; };
+		8F25A1611A354D8E002902AD /* LunExServiceUnavailableException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A15B1A354D8E002902AD /* LunExServiceUnavailableException.cpp */; };
+		8F25A1621A354D8E002902AD /* LunExServiceUnavailableException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F25A15C1A354D8E002902AD /* LunExServiceUnavailableException.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 
 /* Begin PBXFileReference section */
 		2A3550121A16BA8C005D3B05 /* StockQuoteTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StockQuoteTests.cpp; path = tests/StockQuoteTests.cpp; sourceTree = "<group>"; };
+		8F25A1571A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SecurityExchangeTransmissionInterface.cpp; path = src/ITC/SecurityExchangeTransmissionInterface.cpp; sourceTree = "<group>"; };
+		8F25A1581A354D8E002902AD /* SecurityExchangeTransmissionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecurityExchangeTransmissionInterface.h; path = src/ITC/SecurityExchangeTransmissionInterface.h; sourceTree = "<group>"; };
+		8F25A1591A354D8E002902AD /* LunExServices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LunExServices.cpp; path = src/LunExServices.cpp; sourceTree = "<group>"; };
+		8F25A15A1A354D8E002902AD /* LunExServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunExServices.h; path = src/LunExServices.h; sourceTree = "<group>"; };
+		8F25A15B1A354D8E002902AD /* LunExServiceUnavailableException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LunExServiceUnavailableException.cpp; path = src/LunExServiceUnavailableException.cpp; sourceTree = "<group>"; };
+		8F25A15C1A354D8E002902AD /* LunExServiceUnavailableException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunExServiceUnavailableException.h; path = src/LunExServiceUnavailableException.h; sourceTree = "<group>"; };
 		F81ECFE419C1521300376E6E /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = gtest/gtest.framework; sourceTree = "<group>"; };
 		F88A03F019755CBB0038BCFE /* libLunEx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLunEx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88A03FF19755D2E0038BCFE /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,12 @@
 		F86EC1EE197830850097CAA4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				8F25A1571A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp */,
+				8F25A1581A354D8E002902AD /* SecurityExchangeTransmissionInterface.h */,
+				8F25A1591A354D8E002902AD /* LunExServices.cpp */,
+				8F25A15A1A354D8E002902AD /* LunExServices.h */,
+				8F25A15B1A354D8E002902AD /* LunExServiceUnavailableException.cpp */,
+				8F25A15C1A354D8E002902AD /* LunExServiceUnavailableException.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -91,6 +109,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F25A15E1A354D8E002902AD /* SecurityExchangeTransmissionInterface.h in Headers */,
+				8F25A1601A354D8E002902AD /* LunExServices.h in Headers */,
+				8F25A1621A354D8E002902AD /* LunExServiceUnavailableException.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F25A1611A354D8E002902AD /* LunExServiceUnavailableException.cpp in Sources */,
+				8F25A15F1A354D8E002902AD /* LunExServices.cpp in Sources */,
+				8F25A15D1A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
