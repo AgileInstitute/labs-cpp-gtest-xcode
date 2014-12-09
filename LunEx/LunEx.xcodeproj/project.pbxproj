@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A20AE2B1A37A95500D9917D /* gmock-gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2A20AE2A1A37A95500D9917D /* gmock-gtest-all.cc */; };
 		2A3550141A16BA8C005D3B05 /* StockQuoteTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A3550121A16BA8C005D3B05 /* StockQuoteTests.cpp */; };
-		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
 		8F25A15D1A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A1571A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp */; };
 		8F25A15E1A354D8E002902AD /* SecurityExchangeTransmissionInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F25A1581A354D8E002902AD /* SecurityExchangeTransmissionInterface.h */; };
 		8F25A15F1A354D8E002902AD /* LunExServices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A1591A354D8E002902AD /* LunExServices.cpp */; };
@@ -30,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A20AE2A1A37A95500D9917D /* gmock-gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gmock-gtest-all.cc"; path = "gmock-1.7.0/fused-src/gmock-gtest-all.cc"; sourceTree = "<group>"; };
 		2A3550121A16BA8C005D3B05 /* StockQuoteTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StockQuoteTests.cpp; path = tests/StockQuoteTests.cpp; sourceTree = "<group>"; };
 		8F25A1571A354D8E002902AD /* SecurityExchangeTransmissionInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SecurityExchangeTransmissionInterface.cpp; path = src/ITC/SecurityExchangeTransmissionInterface.cpp; sourceTree = "<group>"; };
 		8F25A1581A354D8E002902AD /* SecurityExchangeTransmissionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecurityExchangeTransmissionInterface.h; path = src/ITC/SecurityExchangeTransmissionInterface.h; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		8F25A15A1A354D8E002902AD /* LunExServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunExServices.h; path = src/LunExServices.h; sourceTree = "<group>"; };
 		8F25A15B1A354D8E002902AD /* LunExServiceUnavailableException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LunExServiceUnavailableException.cpp; path = src/LunExServiceUnavailableException.cpp; sourceTree = "<group>"; };
 		8F25A15C1A354D8E002902AD /* LunExServiceUnavailableException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunExServiceUnavailableException.h; path = src/LunExServiceUnavailableException.h; sourceTree = "<group>"; };
-		F81ECFE419C1521300376E6E /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = gtest/gtest.framework; sourceTree = "<group>"; };
 		F88A03F019755CBB0038BCFE /* libLunEx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLunEx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88A03FF19755D2E0038BCFE /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +76,7 @@
 		F88A03E719755CBB0038BCFE = {
 			isa = PBXGroup;
 			children = (
-				F81ECFE419C1521300376E6E /* gtest.framework */,
+				2A20AE2A1A37A95500D9917D /* gmock-gtest-all.cc */,
 				F86EC1EE197830850097CAA4 /* src */,
 				F88A040019755D2E0038BCFE /* tests */,
 				2A3550121A16BA8C005D3B05 /* StockQuoteTests.cpp */,
@@ -195,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3550141A16BA8C005D3B05 /* StockQuoteTests.cpp in Sources */,
+				2A20AE2B1A37A95500D9917D /* gmock-gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +284,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gtest",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/gmock-1.7.0/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -297,10 +302,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gtest",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/gmock-1.7.0/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
