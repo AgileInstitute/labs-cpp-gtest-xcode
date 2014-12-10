@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-               BuildableName = "libMessTrek.dylib"
-               BlueprintName = "MessTrek"
-               ReferencedContainer = "container:MessTrek.xcodeproj">
+               BlueprintIdentifier = "40C8497A101A36850083642A"
+               BuildableName = "gtest_unittest"
+               BlueprintName = "gtest_unittest-static"
+               ReferencedContainer = "container:gtest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-            BuildableName = "libExample.dylib"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "40C8497A101A36850083642A"
+            BuildableName = "gtest_unittest"
+            BlueprintName = "gtest_unittest-static"
+            ReferencedContainer = "container:gtest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -48,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "40C8497A101A36850083642A"
+            BuildableName = "gtest_unittest"
+            BlueprintName = "gtest_unittest-static"
+            ReferencedContainer = "container:gtest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -57,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "40C8497A101A36850083642A"
+            BuildableName = "gtest_unittest"
+            BlueprintName = "gtest_unittest-static"
+            ReferencedContainer = "container:gtest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

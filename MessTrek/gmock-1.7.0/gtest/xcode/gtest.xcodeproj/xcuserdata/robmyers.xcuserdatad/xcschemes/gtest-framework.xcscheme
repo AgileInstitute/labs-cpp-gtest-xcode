@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-               BuildableName = "libMessTrek.dylib"
-               BlueprintName = "MessTrek"
-               ReferencedContainer = "container:MessTrek.xcodeproj">
+               BlueprintIdentifier = "8D07F2BC0486CC7A007CD1D0"
+               BuildableName = "gtest.framework"
+               BlueprintName = "gtest-framework"
+               ReferencedContainer = "container:gtest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F88A03EF19755CBB0038BCFE"
-            BuildableName = "libExample.dylib"
-            BlueprintName = "Example"
-            ReferencedContainer = "container:Example.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,6 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D07F2BC0486CC7A007CD1D0"
+            BuildableName = "gtest.framework"
+            BlueprintName = "gtest-framework"
+            ReferencedContainer = "container:gtest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -57,6 +57,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D07F2BC0486CC7A007CD1D0"
+            BuildableName = "gtest.framework"
+            BlueprintName = "gtest-framework"
+            ReferencedContainer = "container:gtest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

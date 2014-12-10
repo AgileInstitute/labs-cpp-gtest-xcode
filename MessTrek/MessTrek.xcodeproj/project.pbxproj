@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81ECFE419C1521300376E6E /* gtest.framework */; };
+		2A20AE2D1A38F49300D9917D /* gmock-gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2A20AE2C1A38F49300D9917D /* gmock-gtest-all.cc */; };
 		8F18E07C1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
 		8F18E07D1A2AB0640047516C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F18E0711A2AB0640047516C /* Game.cpp */; };
 		8F18E07E1A2AB0640047516C /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F18E0721A2AB0640047516C /* Game.h */; };
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A20AE2C1A38F49300D9917D /* gmock-gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gmock-gtest-all.cc"; path = "gmock-1.7.0/fused-src/gmock-gtest-all.cc"; sourceTree = "<group>"; };
 		8F18E0711A2AB0640047516C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		8F18E0721A2AB0640047516C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		8F18E0731A2AB0640047516C /* Klingon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Klingon.cpp; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		8F18E0761A2AB0640047516C /* SampleClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleClient.cpp; sourceTree = "<group>"; };
 		8F18E0781A2AB0640047516C /* WebGadget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGadget.h; sourceTree = "<group>"; };
 		8F18E0861A2AB0760047516C /* MessTrekCharacterizationTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessTrekCharacterizationTests.cpp; path = tests/MessTrekCharacterizationTests.cpp; sourceTree = SOURCE_ROOT; };
-		F81ECFE419C1521300376E6E /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = gtest/gtest.framework; sourceTree = "<group>"; };
 		F88A03F019755CBB0038BCFE /* libMessTrek.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMessTrek.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88A03FF19755D2E0038BCFE /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3550181A16BE27005D3B05 /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +96,7 @@
 		F88A03E719755CBB0038BCFE = {
 			isa = PBXGroup;
 			children = (
-				F81ECFE419C1521300376E6E /* gtest.framework */,
+				2A20AE2C1A38F49300D9917D /* gmock-gtest-all.cc */,
 				F86EC1EE197830850097CAA4 /* src */,
 				F88A040019755D2E0038BCFE /* tests */,
 				F88A03F119755CBB0038BCFE /* Products */,
@@ -215,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F18E08D1A2AB0760047516C /* MessTrekCharacterizationTests.cpp in Sources */,
+				2A20AE2D1A38F49300D9917D /* gmock-gtest-all.cc in Sources */,
 				8F18E0801A2AB0640047516C /* Klingon.cpp in Sources */,
 				8F18E07D1A2AB0640047516C /* Game.cpp in Sources */,
 			);
@@ -318,10 +318,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gtest",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+					"$(PROJECT_DIR)/gmock-1.7.0/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -331,10 +338,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gtest",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/tests",
+					"$(PROJECT_DIR)/gmock-1.7.0/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
